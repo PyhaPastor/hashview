@@ -109,7 +109,6 @@ def import_hash_only(line, hash_type):
         return hash.id
 
     new_hash = Hashes(hash_type=hash_type, sub_ciphertext=get_md5_hash(line), ciphertext=line, cracked=0)
-    new_hash = Hashes(hash_type=hash_type, sub_ciphertext=get_md5_hash(line), ciphertext=line, cracked=0)
     db.session.add(new_hash)
     db.session.commit()
     return new_hash.id
