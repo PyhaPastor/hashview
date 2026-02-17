@@ -10,7 +10,9 @@ import psutil
 import re
 import signal
 import builtins
+import time
 from threading import Thread
+from contextlib import suppress
 
 
 parser = argparse.ArgumentParser()

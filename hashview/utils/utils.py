@@ -101,11 +101,14 @@ def get_md5_hash(string):
 def import_hash_only(line, hash_type):
     """Function to import single hash"""
 
+    line = line.strip().lower()
+
     hash = Hashes.query.filter_by(hash_type=hash_type, sub_ciphertext=get_md5_hash(line)).first()
 
     if hash:
         return hash.id
 
+    new_hash = Hashes(hash_type=hash_type, sub_ciphertext=get_md5_hash(line), ciphertext=line, cracked=0)
     new_hash = Hashes(hash_type=hash_type, sub_ciphertext=get_md5_hash(line), ciphertext=line, cracked=0)
     db.session.add(new_hash)
     db.session.commit()
