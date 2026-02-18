@@ -1,7 +1,7 @@
 # Hashview v0.8.1
 This is a fork that has been slightly modified-fixed to work right out of the box with **Ubuntu Server 24.04.3 LTS** and **Python 3.12.3**.
 
-**hashview-agent** confirmed working on **Python 3.10.12**
+**hashview-agent** confirmed working on **Python 3.10.12** and **Hashcat v6.2.5+**
 
 AFAIK Docker install seems to be broken - I made no modifications to that part.
 
@@ -19,8 +19,8 @@ AFAIK Docker install seems to be broken - I made no modifications to that part.
 
 ## Agent Requirements
 
-1. Python 3.7+
-2. Hashcat 6.2.x+
+1. Python **Python 3.10.12**
+2. Hashcat **v6.2.5+**
 
 ## Installation
 Follow these instructions to install Hashview Server on Ubuntu 20.04.3 LTS server. In theory Hashview should be able to run on any *nix system, but the dev's only installed/tested on Debian/Ubuntu.
