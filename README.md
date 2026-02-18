@@ -1,4 +1,11 @@
 # Hashview v0.8.1
+This is a fork that has been slightly modified-fixed to work right out of the box with **Ubuntu Server 24.04.3 LTS** and **Python 3.12.3**.
+
+**hashview-agent** confirmed working on **Python 3.10.12**
+
+AFAIK Docker install seems to be broken - I made no modifications to that part.
+
+
 
 >**Hashview** is a tool for security professionals to help organize and automate the repetitious tasks related to password cracking. It is broken into two compoents, the Hashview Server, and Hashview Agent. The Hashview Server is a web application that manages one or more agents, deployed by you on dedicated hardware. (note you can run the server and agent on the same machine). Hashview strives to bring constiency in your hashcat tasks while delivering analytics with pretty pictures ready for ctrl+c, ctrl+v into your reports.
 
@@ -6,7 +13,7 @@
 
 ## Server Requirements
 
-1. Python 3.7+
+1. Python **3.12+**
 2. Mysql DB installed with known username/password
 3. Access to a SMTP email service (used for password resets and notifications)
 
