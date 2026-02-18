@@ -20,7 +20,7 @@ AFAIK Docker install seems to be broken - I made no modifications to that part.
 ## Agent Requirements
 
 1. Python **3.10.12**
-2. Hashcat **v6.2.5+**
+2. Hashcat **6.2.5+**
 
 ## Installation
 Follow these instructions to install Hashview Server on Ubuntu 20.04.3 LTS server. In theory Hashview should be able to run on any *nix system, but the dev's only installed/tested on Debian/Ubuntu.
