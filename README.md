@@ -19,7 +19,7 @@ AFAIK Docker install seems to be broken - I made no modifications to that part.
 
 ## Agent Requirements
 
-1. Python **Python 3.10.12**
+1. Python **3.10.12**
 2. Hashcat **v6.2.5+**
 
 ## Installation
