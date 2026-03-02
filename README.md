@@ -50,7 +50,7 @@ exit
 The following are to install hashview after the mysql db has been setup.
 
 ```
-sudo apt-get install python3 python3-pip python3-flask python3.13-venv
+sudo apt-get install python3 python3-pip python3-flask
 git clone https://github.com/hashview/hashview
 cd hashview
 pip3 install -r requirements.txt
